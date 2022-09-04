@@ -1,0 +1,122 @@
+body{
+    margin: 10%;
+    padding: 0;
+    background-color: white;
+}
+
+.encabezado{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linkGet{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.contenedor{
+    display: grid;
+    /* grid-gap: 20px; */
+    grid-template-areas: 
+        "uno uno tres tres"
+        "dos dos tres tres";
+    margin: 0px 30px;
+}
+
+.uno{
+    grid-area: uno;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    margin: 30px 0px 0px;
+}
+
+.dos{
+    grid-area: dos;
+    font-size: 15px;
+}
+
+.tres{
+    grid-area: tres;
+    width: 345px;
+    align-self: center;
+    justify-self: end;
+}
+
+.cuadraditos{
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+        "cuatro cinco seis"
+        "siete ocho nueve";
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.cuatro{
+    grid-area: cuatro;
+    border: black 2px solid;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.cinco{
+    grid-area: cinco;
+    border: black 2px solid;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.seis{
+    grid-area: seis;
+    border: black 2px solid;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.siete{
+    grid-area: siete;
+    border: black 2px solid;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.ocho{
+    grid-area: ocho;
+    border: black 2px solid;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.nueve{
+    grid-area: nueve;
+    border: black 2px solid;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.gget{
+    color: rgb(146, 42, 76);
+}
+
+footer{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 144, 243);
+}
